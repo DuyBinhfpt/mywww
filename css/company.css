@@ -1,0 +1,40 @@
+.container>header{
+    position: relative;
+}
+.company-info{
+    position:absolute;
+    bottom: 10px;
+    Left: 10px;
+    font-variant: small-caps;
+    color: white;
+    text-shadow: 0 0 2px orangered;
+}
+.company-info>h1{
+    padding: 0px;
+    margin: 0px;
+    font-family: Impact;
+    font-size: 45px;
+}
+.company-info>strong{
+    border-top: 1px dotted white;
+    font-size:larger;
+    letter-spacing: 3px;
+}
+.top-right{
+    Position:absolute;
+    Top:0px;
+    Right:0px;
+    background-color: orangered;
+    line-height: 30px;
+    Border-bottom-left-radius: 30px;
+    padding: 0 10px 0 30px;
+    box-shadow: 0 0 20px white;
+}
+.top-right>a{
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+}
+.top-right>a:hover{
+    color: yellow;
+}
